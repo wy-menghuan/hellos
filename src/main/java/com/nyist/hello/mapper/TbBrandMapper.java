@@ -7,6 +7,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 public interface TbBrandMapper {
+
     int countByExample(TbBrandExample example);
 
     int deleteByExample(TbBrandExample example);
