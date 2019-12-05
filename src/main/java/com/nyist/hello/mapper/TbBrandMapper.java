@@ -2,10 +2,9 @@ package com.nyist.hello.mapper;
 
 import com.nyist.hello.pojo.TbBrand;
 import com.nyist.hello.pojo.TbBrandExample;
-import java.util.List;
-import java.util.Map;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TbBrandMapper {
     int countByExample(TbBrandExample example);
