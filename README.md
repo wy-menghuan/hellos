@@ -1,2 +1,0 @@
-# hellos
-a ssm project
